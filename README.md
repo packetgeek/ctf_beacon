@@ -1,6 +1,7 @@
 # ctf_beacon
 
-## Purpose 
+## Purpose
+
 This program periodically sends out a UDP broadcast beacon, containing a given string.  Main idea is to check if contestants are paying attention to the network. Syntax is:
 
     ./ctf_beacon <IP address> <port> "<string>" <seconds between beacons>
@@ -23,7 +24,7 @@ Compile this program via:
 ## Ideas for future versions
 
 * instead of a set sleep span, how about sleep span plus a random number?
-* embedd a timestamp
+* embed a timestamp
 
 ## Adapted from/inspired by
 
