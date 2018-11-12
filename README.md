@@ -21,6 +21,12 @@ Compile this program via:
 * Doesn't require root permissions to run (unless port < 1024).
 * This was written at 2 a.m. so please excuse the errors.
 
+## Ideas for use
+
+* Encode the flag (e.g., base64).
+* Send longer flags by doubling the number of packets sent (use more than one "if" statement in the "for" loop).
+* Same as above, but add a sleep statement between the packets.
+
 ## Ideas for future versions
 
 * instead of a set sleep span, how about sleep span plus a random number?
